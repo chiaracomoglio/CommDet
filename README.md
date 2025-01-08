@@ -5,7 +5,7 @@ A MATLAB package for community detection in graphs.
 <br>
 
 <img src="bunny_3_2.png" width="500"> 
-Fig. 1 Stanford Bunny - graph partitioning into communities
+Fig. 1 Stanford Bunny - graph partitioning into disjoint communities
 
 Description of the Code
 -----------------------
