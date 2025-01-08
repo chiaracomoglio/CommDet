@@ -4,7 +4,7 @@ A MATLAB package for community detection in graphs.
 
 <br>
 
-<img src="bunny_3_2.png" width="800"> 
+<img src="bunny_3_2.png" width="500"> 
 Fig. 1 Stanford Bunny - graph partitioning into communities
 
 Description of the Code
@@ -18,7 +18,7 @@ The package contains some *MATLAB* functions for graph partitioning into two or 
 
 - The function **algorithm_3.m** is used to divide the graph into more than two communities by iteratively applying one of the previous algorithms until no further subdivision increases the graph's modularity
 
--	The function **algorithm_1_magnitudes is used to visualize the magnitudes of the leading eigenvector $u_1$ of the modularity matrix, computing the saturation based on the values of $u_1$
+-	The function **algorithm_1_magnitudes** is used to visualize the magnitudes of the leading eigenvector $u_1$ of the modularity matrix, computing the saturation based on the values of $u_1$
 
 A simple example for the usage of the functions is provided in the script **example.m**. It shows how to apply the community detection method provided by Algorithm 3 and how to visualize the magnitudes of the elements of $u_1$, demonstrating that, with reference to Algorithm 1, the magnitudes indicate the 'strength' with which the corresponding nodes belong to their respective communities
 
