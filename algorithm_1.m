@@ -24,7 +24,7 @@ function [communities,colors] = algorithm_1(A)
     B = A - (k * k') / (2 * m);
 
     % Leading eigenvector of B
-    [u_1, ~] = eigs(B, 1);
+    [u_1, ~] = eigs(B, 1, 'largestreal');
 
     % Assign each node to one of the two communities based on the sign of u_1
     communities = ones(n, 1);
