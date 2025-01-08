@@ -10,7 +10,7 @@ Fig. 1 Stanford Bunny - graph partitioning into disjoint communities
 Description of the Code
 -----------------------
 
-The package contains some *MATLAB* functions for graph partitioning into two or more than two communities. The algorithms has been implemented based on the spectral methods introduced by Newman (for more details, see \cite{new06, new13}) based on the maximization of the modularity.
+The package contains some *MATLAB* functions for graph partitioning into two or more than two disjoint communities. The algorithms has been implemented based on the spectral methods introduced by Newman (for more details, see [1], [2]) based on the maximization of the modularity.
 
 - The function **algorithm_1.m** is used to divide the graph into two disjoint communities, based on the leading eigenvector $u_1$ of the modularity matrix
 
@@ -22,4 +22,19 @@ The package contains some *MATLAB* functions for graph partitioning into two or 
 
 A simple example for the usage of the functions is provided in the script **example.m**. It shows how to apply the community detection method provided by Algorithm 3 and how to visualize the magnitudes of the elements of $u_1$, demonstrating that, with reference to Algorithm 1, the magnitudes indicate the 'strength' with which the corresponding nodes belong to their respective communities
 
+<br>
+
+Citation and Credits
+--------------------
+
+The theory on the spectral methods for community detection in graphs implemented can be found in 
+
+*   [1] &nbsp; Newman, M. E. <br>
+    <i> Finding community structure in networks using the eigenvectors of matrices  </i> <br>
+    Phys. Rev. E \textbf{74}(3), 036104 (2006)
+
+*   [2] &nbsp; Newman, M. E. <br>
+    <i> Spectral methods for community detection and graph partitioning  </i> <br>
+    Phys. Rev. E \textbf{88}(4), 042822 (2013)
+ 
 <br>
