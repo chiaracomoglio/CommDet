@@ -41,7 +41,7 @@ The theory on the spectral methods for community detection in graphs implemented
     <i> Spectral methods for community detection and graph partitioning  </i> <br>
     Phys. Rev. E. 88(4), 042822 (2013)
     
-Some functions are imported from the following toolbox GBFPUM:
+The routines **GBF_gengraph.m** and **GBF_sim_rballs.m** are imported from the following toolbox:
 *   [3] &nbsp;  Erb, W. <br>
     GitHub: https://github.com/WolfgangErb/GBFPUM
  
