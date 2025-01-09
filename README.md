@@ -43,6 +43,6 @@ The theory on the spectral methods for community detection in graphs implemented
     
 Some functions are imported from the following toolbox GBFPUM:
 *   [3] &nbsp;  Erb, W. <br>
-    <i> GitHub  </i> <br> (https://github.com/WolfgangErb/GBFPUM)   
+    GitHub: https://github.com/WolfgangErb/GBFPUM
  
 <br>
