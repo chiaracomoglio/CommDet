@@ -22,6 +22,8 @@ The package contains some *MATLAB* functions for graph partitioning into two or 
 
 -	The function **algorithm_1_magnitudes.m** is used to visualize the magnitudes of the leading eigenvector $u_1$ of the modularity matrix, computing the saturation based on the values of $u_1$
 
+-	The functions **GBF_gengraph.m** and **GBF_sim_rballs.m** are used to generate the graph from different datasets and imported from [3].
+
 A simple example for the usage of the functions is provided in the script **example.m**. It shows how to apply the community detection method provided by Algorithm 3 and how to visualize the magnitudes of the elements of $u_1$, demonstrating that, with reference to Algorithm 1, the magnitudes indicate the 'strength' with which the corresponding nodes belong to their respective communities
 
 <br>
@@ -29,7 +31,7 @@ A simple example for the usage of the functions is provided in the script **exam
 Citation and Credits
 --------------------
 
-The theory on the spectral methods for community detection in graphs implemented can be found in 
+The theory on the spectral methods for community detection in graphs implemented can be found in:
 
 *   [1] &nbsp; Newman, M. E. <br>
     <i> Finding community structure in networks using the eigenvectors of matrices  </i> <br>
@@ -38,5 +40,9 @@ The theory on the spectral methods for community detection in graphs implemented
 *   [2] &nbsp; Newman, M. E. <br>
     <i> Spectral methods for community detection and graph partitioning  </i> <br>
     Phys. Rev. E. 88(4), 042822 (2013)
+    
+Some functions are imported from the following toolbox GBFPUM:
+*   [3] &nbsp;  Erb, W. <br>
+    <i> GitHub  </i> <br> (https://github.com/WolfgangErb/GBFPUM)   
  
 <br>
