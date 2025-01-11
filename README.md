@@ -1,6 +1,6 @@
 # CommDet
 
-A MATLAB package for community detection in graphs.
+**A MATLAB package for community detection in graphs.**
 
 <br>
 
