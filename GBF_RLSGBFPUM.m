@@ -31,9 +31,9 @@ for k = 1:J
     % Calculate local interpolant
     L = LL(idxdomain{k},idxdomain{k});
     % For the Stanford Bunny utilize the eigendecomposition of the Laplacian
-    % bf = GBF_genGBF(L,idxWdomain{k},type,alpha);
+    bf = GBF_genGBF(L,idxWdomain{k},type,alpha);
     % For the Minnesota Road Graph utilize successive multiplications
-    bf = GBF_genGBF2(L,idxWdomain{k},type,alpha);
+    % bf = GBF_genGBF2(L,idxWdomain{k},type,alpha);
     sdomain = GBF_RLSGBF(bf, idxWdomain{k}, ydomain{k},lambda);
     
     sdomainext = zeros(N,1); 
