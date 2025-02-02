@@ -4,6 +4,7 @@
 
 <p align="center"> 
 <img src="images/bunny_3_2.png" width="500"> 
+</p>
 Fig. 1 Result obtained from the example_communities.m script. It shows the disjoint communities obtained through Algorithm 3.2 applied to the Stanford Bunny.
 
 Description of the Code
