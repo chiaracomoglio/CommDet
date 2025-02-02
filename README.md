@@ -3,7 +3,7 @@
 **A MATLAB package for community detection applied to GBF-PUM signal approximation on graphs.**
 
 <img src="images/bunny_3_2.png" width="500"> 
-Fig. 1 Stanford Bunny - graph partitioning into disjoint communities
+Fig. 1 Result obtained from the **example_communities.m** script. It shows the community detection method from Algorithm 3 on the Stanford Bunny.
 
 Description of the Code
 -----------------------
@@ -18,14 +18,13 @@ The main contains the following parts:
 
 - The script **example_communities.m** is a simple example of applying the community detection method from Algorithm 3 and visualizing the magnitudes of the elements of $u_1$. It also demonstrates that, in reference to Algorithm 1, these magnitudes reflect the 'strength' with which the corresponding nodes belong to their respective communities
 
-
 - The script **example_GBFPUM.m** provides an example of usage of the whole package by testing the GBF-PUM signal approximation scheme in combination with the chosen community detection method
 
 <p align="center">
     <img src="images/global_bunny.jpg" width="45%" style="display: inline-block; margin-right: 2%;" />
     <img src="images/abs_err_bunny.jpg" width="45%" style="display: inline-block;" />
 </p>
-Fig. 2 Stanford Bunny - GBF-PUM method. Left: Global GBF-PUM interpolant of the test function for the given samples. Right: Absolute error with respect to the original signal. 
+Fig. 2 Result obtained from the **example_GBFPUM.m** script. Left: Global GBF-PUM interpolant of the test function for the given samples. Right: Absolute error with respect to the original signal. 
 
 Let's focus on the routines contained in the *./core* subfolder, which included several MATLAB functions, some for graph partitioning into two or more disjoint communities, and others for applying a GBF-PUM signal approximation scheme on graphs. The community detection algorithms are an implementation of the spectral methods introduced by M. Newman (for more details, see [1] and [2]) based on the maximization of the modularity. The routines for the kernel-based interpolation scheme based on a Partition of Unity Method, instead, are imported (and, in some cases, updated) from [5] and [6].
 
@@ -37,7 +36,7 @@ Let's focus on the routines contained in the *./core* subfolder, which included 
 
 - The function **calculate_modularity.m** is used to compute the modularity of a given graph partition
 
-- The functions **GBF_gengraph.m** and **GBF_sim_rballs.m** are imported from [6] and used to generate the graph from different datasets.
+- The functions **GBF_gengraph.m** and **GBF_sim_rballs.m** are imported from [6] and used to generate the graph from different datasets
 
 - The functions **GBF_domainaugment.m**, **GBF_genPUM.m** are imported (and, in the first case, updated) from [5] and used to generate a partition of unity on the graph, starting from the disjoint communities obtained through Algorithm 3
 
