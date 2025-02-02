@@ -26,7 +26,7 @@ The main contains the following parts:
 </p>
 Fig. 2 Result obtained from the example_GBFPUM.m script. Left: Global GBF-PUM interpolant of the test function for the given samples. Right: Absolute error with respect to the original signal. 
 
-<br><br>
+<br>
 
 Let's focus on the routines contained in the *./core* subfolder, which included several MATLAB functions, some for graph partitioning into two or more disjoint communities, and others for applying a GBF-PUM signal approximation scheme on graphs. The community detection algorithms are an implementation of the spectral methods introduced by M. Newman (for more details, see [1] and [2]) based on the maximization of the modularity. The routines for the kernel-based interpolation scheme based on a Partition of Unity Method, instead, are imported (and, in some cases, updated) from [5] and [6].
 
