@@ -51,7 +51,7 @@ Let's focus on the routines contained in the *./core* subfolder, which included 
 Citation and Credits
 --------------------
 
-The theory on the spectral methods for community detection in graphs implemented can be found in:
+The theory on the implemented spectral methods for community detection in graphs can be found in:
 
 *   [1] &nbsp; Newman, M. E. <br>
     <i> Finding community structure in networks using the eigenvectors of matrices  </i> <br>
