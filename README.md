@@ -83,6 +83,6 @@ Some datasets are imported from [6], while others are imported from:
 *  [7] &nbsp;  Newman, M. <br>
    Network data: https://websites.umich.edu/~mejn/netdata/
 
-and then converted from the *.gml* format to the *.mat* format by computing the adjacency matrix based on the edge information between nodes
+and then converted from the *.gml* format to the *.mat* format by computing the adjacency matrix based on the edge information between nodes.
 
 <br>
