@@ -5,6 +5,9 @@
 <br>
 
 
+<img src="images/bunny_3_2.png" width="500"> 
+Fig. 1 Stanford Bunny - graph partitioning into disjoint communities
+
 Description of the Code
 -----------------------
 
@@ -18,8 +21,6 @@ The main contains the following parts:
 
 - The script **example_communities.m** is a simple example of applying the community detection method from Algorithm 3 and visualizing the magnitudes of the elements of $u_1$. It also demonstrates that, in reference to Algorithm 1, these magnitudes reflect the 'strength' with which the corresponding nodes belong to their respective communities
 
-<img src="images/bunny_3_2.png" width="500"> 
-Fig. 1 Stanford Bunny - graph partitioning into disjoint communities
 
 - The script **example_GBFPUM.m** provides an example of usage of the whole package by testing the GBF-PUM signal approximation scheme in combination with the chosen community detection method
 
