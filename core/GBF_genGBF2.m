@@ -1,6 +1,6 @@
 % GBFPUM: a MATLAB Package for Partition of Unity Based 
 % Signal Interpolation and Approximation on Graphs
-(C) 2022 R. Cavoretto, A. De Rossi, W Erb
+% (C) 2022 R. Cavoretto, A. De Rossi, W Erb
 
 function bf = GBF_genGBF2(L,idxW,type,alpha)
 
