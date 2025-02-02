@@ -13,7 +13,9 @@
 
 clear all; close all; format short e; 
 
+% Paths
 addpath(genpath('./data/'))
+addpath(genpath('./core/'))
 
 % Choose the graph (Stanford Bunny)
 G.type = 'bunny';
