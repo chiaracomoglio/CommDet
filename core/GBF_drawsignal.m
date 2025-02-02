@@ -4,21 +4,23 @@
 
 function GBF_drawsignal(nodes,edges,signal,plotpar)
 
-% This function draws a signal on the nodes of the graph G
-
-% INPUT:    
-% nodes        : Nodes of the graph G
-% edges        : Edges of the graph G
-% signal       : The signal on the Nodes of G
-% plotpar      : The following parameters are relevant:
-%                MM          : size of nodes
-%                lb          : additional space for left and right boundary
-%                ub          : additional space for upper and lower boundary
-%                uaxis       : upper bound for representation of values
-%                laxis       : lower bound for representation of values
-%                fontsize    : fontsize
-%                colorbar    : 'y' or 'n'
-%                edge        : 0 (no) or 1 (yes)
+% File:    GBF_drawsignal.m
+%
+% Goal:    Draws a signal on the nodes of the graph G
+%
+% Input:    
+%          nodes        : Nodes of the graph G
+%          edges        : Edges of the graph G
+%          signal       : The signal on the Nodes of G
+%          plotpar      : The following parameters are relevant:
+%                         MM          : size of nodes
+%                         lb          : additional space for left and right boundary
+%                         ub          : additional space for upper and lower boundary
+%                         uaxis       : upper bound for representation of values
+%                         laxis       : lower bound for representation of values
+%                         fontsize    : fontsize
+%                         colorbar    : 'y' or 'n'
+%                         edge        : 0 (no) or 1 (yes)
 
  if ~exist('plotpar','var')
       plotpar.flag = 'plotpar created automatically';
@@ -60,22 +62,19 @@ function GBF_drawsignal(nodes,edges,signal,plotpar)
       plotpar.edgewidth = 1;
  end
  
-% plot the graph with nodes and edges
+% Plot the graph with nodes and edges
 
-% draw the edges
+% Draw the edges
 if (plotpar.edge == 1)
-    % Iterazione su tutti i lati
     for k = 1 : size(edges,1)
       i = edges(k,1);
       j = edges(k,2);   
-      % I lati sono disegnati di colore grigio
       plot( [nodes(i,1) nodes(j,1)], [nodes(i,2) nodes(j,2)], 'color',[0.6,0.6,0.6], 'LineWidth',plotpar.edgewidth);
       hold on
     end
 end
 
-% draw the signal on the nodes
-% 'signal' rappresenta i valori associati ai nodi e viene utilizzato per determinare il colore dei punti
+% Draw the signal on the nodes
 scatter(nodes(:,1),nodes(:,2), plotpar.MM*100, signal, '.');
 hold off;
 caxis([plotpar.laxis plotpar.uaxis] ) ;
@@ -83,7 +82,6 @@ axis square;
 axis([min(nodes(:,1))-plotpar.lb max(nodes(:,1))+plotpar.lb min(nodes(:,2))-plotpar.ub max(nodes(:,2))+plotpar.ub]);
 h = get(gcf,'CurrentAxes');
 set(h, 'FontName', 'cmr10', 'FontSize', plotpar.fontsize)
-% Si imposta la mappa dei colori utilizzando una versione invertita della colormap copper
 colormap(flipud(copper));
 if plotpar.colorbar == 'y'
    colorbar;
