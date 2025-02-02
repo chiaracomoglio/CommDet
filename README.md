@@ -7,6 +7,12 @@
 <img src="bunny_3_2.png" width="500"> 
 Fig. 1 Stanford Bunny - graph partitioning into disjoint communities
 
+<p align="center">
+    <img src="images/global_bunny.jpg" width="45%" style="display: inline-block; margin-right: 2%;" />
+    <img src="images/abs_err_bunny.jpg" width="45%" style="display: inline-block;" />
+</p>
+Fig. 2 Stanford Bunny - GBF-PUM method. Left: Global GBF-PUM interpolant of the test function for the given samples. Right: Absolute error with respect to the original signal. 
+
 Description of the Code
 -----------------------
 
