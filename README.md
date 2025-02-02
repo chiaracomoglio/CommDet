@@ -4,7 +4,6 @@
 
 <br>
 
-
 <img src="images/bunny_3_2.png" width="500"> 
 Fig. 1 Stanford Bunny - graph partitioning into disjoint communities
 
