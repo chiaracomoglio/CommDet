@@ -3,7 +3,7 @@
 **A MATLAB package for community detection applied to GBF-PUM signal approximation on graphs.**
 
 <img src="images/bunny_3_2.png" width="500"> 
-Fig. 1 Result obtained from the example_communities.m script. It shows the community detection method from Algorithm 3 on the Stanford Bunny.
+Fig. 1 Result obtained from the example_communities.m script. It shows the community detection method from Algorithm 3 applied to the Stanford Bunny.
 
 Description of the Code
 -----------------------
