@@ -2,7 +2,6 @@
 % and classification with graph basis functions (GBFs)" (C) W. Erb 15.01.2023
 % This version has been updated by C. Comoglio and integrated with a new approach of community detection.
 
-% Name: example_bunny.m
 % Example script to see how a community detection method can be combined
 % with a GBF-PUM signal approximation scheme
 
