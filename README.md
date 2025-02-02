@@ -79,11 +79,10 @@ Some of the routines are imported from the following packages:
 *   [6] &nbsp;  Erb, W. <br>
     GitHub: https://github.com/WolfgangErb/GBFlearn
 
-Some datasets are imported from [6]; others are imported in the *.gml* format from:
-
+Some datasets are imported from [6]; others are imported from:
 *  [7] &nbsp;  Newman, M. <br>
    Network data: https://websites.umich.edu/~mejn/netdata/
 
-and then converted in the *.mat* format by computing the adjacency matrix based on the edge information between nodes
+and then converted from the *.gml* format to the *.mat* format by computing the adjacency matrix based on the edge information between nodes
 
 <br>
