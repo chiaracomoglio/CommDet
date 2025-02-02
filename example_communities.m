@@ -2,6 +2,10 @@
 
 clear all; close all; format short e; 
 
+% Paths
+addpath(genpath('./data/'))
+addpath(genpath('./core/'))
+
 % Graph: Stanford Bunny
 G.type = 'bunny';
 load data_bunny.mat
