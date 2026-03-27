@@ -86,7 +86,7 @@ Some of the routines are imported from the following packages:
 *   [7] &nbsp;  Erb, W. <br>
     GitHub: https://github.com/WolfgangErb/GBFlearn
 
-Some datasets are imported from [6], while others are imported from:
+Some datasets are imported from [7], while others are imported from:
 *  [8] &nbsp;  Newman, M. <br>
    Network data: https://websites.umich.edu/~mejn/netdata/
 
